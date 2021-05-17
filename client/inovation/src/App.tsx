@@ -1,19 +1,17 @@
-import React from "react"; 
-//import ReactDom from "react-dom"; 
-// import {  Route, Switch } from "react-dom";
-// import  Home from "./Home" 
+import React from "react";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import Catalogue from "./Catalogue";
 
-const App: React.FunctionComponent<{}> = props =>  {
+
+
+const App: React.FunctionComponent<{}> = (props) => {
   return (
-    <div>
-      Hello
-      {/* <Switch>
-        <Route exact path="/">
-          <Home/>
-        </Route>
-      </Switch> */}
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Catalogue} />
+      </Switch>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

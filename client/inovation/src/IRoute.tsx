@@ -9,7 +9,7 @@ const routes: IRoute[] = [
         exact: true, 
     }, 
     {
-        path: '/contactos', 
+        path: '/contactos/:number', 
         name: 'Contactos', 
         component: Contacto, 
         exact:  true
