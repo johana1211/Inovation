@@ -7,7 +7,7 @@ const NavBar: React.FunctionComponent<{}> = () => {
   return (
     <StyledNavBar>
       <div className='im'>
-      <img src={tecnologia} width= '1500' height='300' alt=''/>
+      <img src={tecnologia} width= '1495' height='300' alt=''/>
       </div>
      
     </StyledNavBar>
